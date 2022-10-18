@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Raquel Lawrence</title>
+  </head>
+
+  <body>
+    <!-- Navbar Section -->
+    <div class="header">
+      <p id="first-name"><a href="#">Raquel Lawrence</a></p>
+      <p id="title">Creative Developer · Digital Illustrator · Writer </p>
+    </div>
+    <nav>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link" data-item="About">About</a></li>
+        <li><a href="#skills" class="nav-link" data-item="Skills">Skills</a></li>
+        <li><a href="#contact" class="nav-link" data-item="Contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <hr class="solid">
+
+    <!-- Hero Section -->
+
+    <!-- More about -->
+    <section class="about" id="about">
+      <h2 class="section-header">About</h2>
+      <div class="text-box">
+        <p>
+          Hello, I'm Raquel (ruh · kell)! I'm a creative developer, digital illustrator and writer. 
+        </p>
+        <p>
+          I'm constantly looking for new ways to showcase my creative passions on the web.
+        </p>
+      </div>
+    </section>
+
+    <hr class="solid">
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="section-header">Skills</h2>
+      <div class="text-box">
+        <ul>
+          <li class="skill">
+            <p>HTML/CSS</p>
+              <div class="skill-bar skill-1">
+                <span class="skill-count-1">70%</span>
+              </div>
+          </li>
+          <li class="skill">
+            <p>JavaScript</p>
+              <div class="skill-bar skill-2">
+                <span class="skill-count-2">100%</span>
+              </div>
+          </li>
+          <li class="skill">
+            <p>Typescript</p>
+              <div class="skill-bar skill-3">
+                <span class="skill-count-3">70%</span>
+              </div>
+          </li>
+          <li class="skill">
+            <p>NodeJS</p>
+              <div class="skill-bar skill-4">
+                <span class="skill-count-4">80%</span>
+              </div>
+          </li>
+          <li class="skill">
+            <p>Golang</p>
+              <div class="skill-bar skill-5">
+                <span class="skill-count-5">60%</span>
+              </div>
+          </li>
+          <li class="skill">
+            <p>Rust</p>
+              <div class="skill-bar skill-6">
+                <span class="skill-count-6">10%</span>
+              </div>
+          </li>
+          <li class="skill">
+            <p>GraphQL</p>
+              <div class="skill-bar skill-7">
+                <span class="skill-count-7">30%</span>
+              </div>
+          </li>
+          <li class="skill">
+            <p>React</p>
+              <div class="skill-bar skill-8">
+                <span class="skill-count-8">20%</span>
+              </div>
+          </li>
+          <li class="skill">
+            <p>Adobe CC</p>
+              <div class="skill-bar skill-9">
+                <span class="skill-count-9">10%</span>
+              </div>
+          </li>
+          <li class="skill">
+            <p>Figma</p>
+              <div class="skill-bar skill-10">
+                <span class="skill-count-10">10%</span>
+              </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="solid">
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2 class="section-header">Contact</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mknevroo" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Socials section -->
+    <section>
+      <div class="socials">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24" 
+          viewBox="0 0 24 24">
+            <a href="https://github.com/rlawrence25">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </a>
+        </svg>
+        <svg 
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24">
+            <a href="https://www.linkedin.com/in/raquel-lawrence-536b8196">
+              <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
+            </a>
+          </svg>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="#" target="_blank"
+          >Raquel Lawrence</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
